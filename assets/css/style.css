@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 @codewithsadee
+ * copyright 2023 @theumesh
  */
 
 
@@ -940,8 +940,16 @@ body.active { overflow: hidden; }
  * #MOVIE DETAIL 
 \*-----------------------------------*/
 
-.movie-detail {
+.leo-movie-detail {
   background: url("../images/leo-poster.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 160px;
+  padding-bottom: var(--section-padding);
+}
+
+.chandramukhi-movie-detail {
+  background: url("../images/Chandramukhi_2_banner.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 160px;
